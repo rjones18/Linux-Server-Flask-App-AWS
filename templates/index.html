@@ -1,0 +1,20 @@
+<!DOCTYPE html lang>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+    <title>Reggie Jones - Flask Website</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+
+</head>
+
+<body>
+    <main>
+    <h1>This Website is being ran using Ngnix and Gunicorn!</h1>
+    <p>
+        Nginx is a reverse proxy for Gunicorn. Gunicorn serves your Flask app and Nginx sits in front of it and decides where a request should go. For example, if the incoming request is an http request Nginx redirects it to gunicorn, if it is for a static file, it serves it itself.
+    </p>
+</main>
+
+</body>
