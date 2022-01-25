@@ -9,11 +9,28 @@ Link to the App: http://flask.reggiestestdomain.com/
 
 The construction of the application broken down into the architecture below:
 
-![awsflask](https://github.com/rjones18/Images/blob/main/AWSFlaskAPP.drawio.png)
+![awsflask](https://github.com/rjones18/Images/blob/main/AWSFlaskAPP2.drawio.png)
+
+### Front-End
+
+- HTML
+- CSS
+
+
+### Back-End 
 
 - [Python](https://www.python.org/) 
 - [Flask (Python Framework)](https://flask.palletsprojects.com/en/1.1.x/)
 
+### Web Server/HTTP Server
+
+- [Nginx](https://www.nginx.com/)
+- [Gunicorn](https://gunicorn.org/)
+
 ### Deployment Platform
 
 - Linux Server hosted in AWS
+
+### DNS
+
+- [Route 53](https://aws.amazon.com/route53/)
