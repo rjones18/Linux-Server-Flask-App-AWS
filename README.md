@@ -3,7 +3,7 @@ In this mini project I deployed a basic flask application on a Linux server. The
 
 In this mini project I deployed a basic python flask application on a Linux server. The Linux server is on a EC2 Instance in AWS and is running [NGINX](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/) to forward the request from the public IP address of the server to the local webserver. Gunicorn is also used to run our flask application.
 
-Link to the App: http://flask2.reggiestestdomain.com (VM Currently turned off)
+Link to the App: http://flask2.reggiestestdomain.com (VM Currently Turned Off)
 
 ## Application Breakdown
 
